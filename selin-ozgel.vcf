@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=UTF-8:Özgel;Selin;;;
+FN;CHARSET=UTF-8:Selin Özgel
+TITLE;CHARSET=UTF-8:Strategic Marketing & Consumer Insights
+ORG;CHARSET=UTF-8:IE Business School – Master in Strategic Marketing & Communication
+EMAIL;TYPE=INTERNET,PREF:selinozgell@gmail.com
+TEL;TYPE=CELL,VOICE:+34634670566
+item1.URL:https://www.linkedin.com/in/selin-ozgel/
+item1.X-ABLabel:LinkedIn
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/selin-ozgel/
+item2.URL:https://selinozgell-code.github.io/
+item2.X-ABLabel:CV
+ADR;TYPE=HOME;CHARSET=UTF-8:;;;Madrid;;;Spain
+NOTE;CHARSET=UTF-8:Met at the career fair. CV: https://selinozgell-code.github.io/
+END:VCARD

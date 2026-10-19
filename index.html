@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Selin Özgel — CV & LinkedIn</title>
+<meta name="description" content="Selin Özgel — Strategic Marketing & Consumer Insights. Master in Strategic Marketing & Communication at IE Business School. Download my CV or connect on LinkedIn.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F3F5F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12161D" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://selinozgell-code.github.io/">
+<link rel="icon" href="photo.jpg">
+<link rel="apple-touch-icon" href="photo.jpg">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://selinozgell-code.github.io/">
+<meta property="og:title" content="Selin Özgel — CV & LinkedIn">
+<meta property="og:description" content="Strategic Marketing & Consumer Insights · IE Business School, Madrid">
+<meta property="og:image" content="https://selinozgell-code.github.io/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root {
+    --paper: #F3F5F7;
+    --ink: #1A2230;
+    --muted: #5B6573;
+    --line: #D3D9E1;
+    --accent: #1E3557;
+    --on-accent: #FFFFFF;
+    --serif: "New York", ui-serif, "Iowan Old Style", Georgia, "Times New Roman", serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #12161D;
+      --ink: #E8ECF1;
+      --muted: #9AA4B2;
+      --line: #2C3440;
+      --accent: #B7C9E4;
+      --on-accent: #12161D;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 400 1rem/1.5 var(--sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 26rem;
+    margin: 0 auto;
+    padding: max(2.75rem, env(safe-area-inset-top)) 1.25rem max(2rem, env(safe-area-inset-bottom));
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+  }
+  .portrait {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+    background: var(--line);
+    box-shadow: 0 0 0 3px var(--paper), 0 0 0 4px var(--line);
+  }
+  h1 {
+    font: 600 2.5rem/1.05 var(--serif);
+    letter-spacing: -0.015em;
+    margin: 1.5rem 0 0.75rem;
+  }
+  .headline {
+    font-size: 1.0625rem;
+    line-height: 1.45;
+    margin: 0;
+    max-width: 22rem;
+  }
+  .headline span { color: var(--muted); display: block; margin-top: 0.25rem; font-size: 0.9375rem; }
+
+  /* The route: places she has studied and worked, in order, ending in Madrid */
+  .route {
+    list-style: none;
+    margin: 1.75rem 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 0.8125rem;
+    color: var(--muted);
+  }
+  .route::before {
+    content: "";
+    position: absolute;
+    left: 4px; right: 4px; top: 4px;
+    border-top: 1px solid var(--line);
+  }
+  .route li { position: relative; padding-top: 1rem; white-space: nowrap; }
+  .route li::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: var(--paper);
+    border: 1.5px solid var(--muted);
+  }
+  .route li:last-child { text-align: right; color: var(--ink); font-weight: 600; }
+  .route li:last-child::before { left: auto; right: 0; background: var(--accent); border-color: var(--accent); }
+  .based { margin: 0.5rem 0 0; text-align: right; font-size: 0.8125rem; color: var(--muted); }
+
+  .actions { display: grid; gap: 0.75rem; margin: 2.5rem 0 0; }
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-height: 3.5rem;
+    padding: 0 1.25rem;
+    border-radius: 0.75rem;
+    border: 1.5px solid var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .btn svg { width: 1.25rem; height: 1.25rem; flex: none; }
+  .btn small { margin-left: auto; font-weight: 400; font-size: 0.8125rem; opacity: 0.75; }
+  .btn.primary { background: var(--accent); color: var(--on-accent); }
+  .btn:active { transform: scale(0.985); }
+  .btn:focus-visible, footer a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+  footer {
+    margin-top: auto;
+    padding-top: 2.5rem;
+    font-size: 0.9375rem;
+    color: var(--muted);
+  }
+  footer a { color: var(--ink); text-underline-offset: 3px; text-decoration-color: var(--line); }
+
+  @media (max-width: 370px) {
+    h1 { font-size: 2.15rem; }
+    .route { font-size: 0.75rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .btn:active { transform: none; } }
+</style>
+</head>
+<body>
+<main>
+  <img class="portrait" src="photo.jpg" width="88" height="88" alt="Portrait of Selin Özgel">
+  <h1>Selin Özgel</h1>
+  <p class="headline">Strategic Marketing &amp; Consumer Insights<span>Master in Strategic Marketing &amp; Communication, IE Business School</span></p>
+
+  <ol class="route" aria-label="Studied and worked in">
+    <li>Türkiye</li>
+    <li>Germany</li>
+    <li>Hong Kong</li>
+    <li>Spain</li>
+  </ol>
+  <p class="based">Based in Madrid</p>
+
+  <nav class="actions" aria-label="Contact">
+    <a class="btn primary" href="Selin_Ozgel_CV.pdf">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+      Download CV <small>PDF</small>
+    </a>
+    <a class="btn" href="https://www.linkedin.com/in/selin-ozgel/">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+      LinkedIn
+    </a>
+    <a class="btn" href="selin-ozgel.vcf" download="selin-ozgel.vcf">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-3.9 3.1-7 7-7s7 3.1 7 7"/><path d="M19 8v6M16 11h6"/></svg>
+      Save my contact
+    </a>
+  </nav>
+
+  <footer>
+    <a href="mailto:selinozgell@gmail.com">selinozgell@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
